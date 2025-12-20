@@ -4,7 +4,7 @@ setup(
     name="ezycspm",
     version="0.1.0",
     description="EzyCPSM - Lightweight AWS Cloud Security Posture Management tool",
-    author="Your Name",
+    author="Rudra Pratap Singh",
     packages=find_packages(),
     python_requires=">=3.8",
     install_requires=[
@@ -17,7 +17,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "ezycspm=ezycspm.cli:main",
+            "ezycspm=easy_cspm.cli:main",
         ],
     },
     include_package_data=True,
